@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Eviivo Booking Form\n"
+"POT-Creation-Date: 2016-07-15 12:57+0300\n"
+"PO-Revision-Date: 2016-07-15 12:57+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eviivo-booking-widget.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: config/common.php:5
+msgid "English"
+msgstr ""
+
+#: config/common.php:6
+msgid "Francais"
+msgstr ""
+
+#: config/common.php:7
+msgid "Deutsch"
+msgstr ""
+
+#: config/common.php:8
+msgid "Español"
+msgstr ""
+
+#: config/common.php:9
+msgid "Italiano"
+msgstr ""
+
+#: config/common.php:10
+msgid "Português (PT)"
+msgstr ""
+
+#: config/common.php:11
+msgid "Português (BR)"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:34
+msgid "Error generating the preview. Please try again later"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:35
+#: views/admin/booking-form-preview.php:10
+msgid "Loading"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:36
+msgid "Add"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:37
+msgid "Cancel"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:38
+msgid "Update"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:39
+msgid "Embed eviivo booking form"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:40
+msgid "Booking Widget"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Hooks/Actions.php:41
+#, php-format
+msgid "Widget edit %s"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:49
+msgid "Submit"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:61
+#: views/admin/booking-form-config.php:61
+msgid "Hotel Reference"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:65
+#: views/admin/booking-form-config.php:66
+msgid "Language"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:74
+#: views/admin/booking-form-config.php:40
+#: views/admin/booking-form-config.php:74
+msgid "Layout"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:76
+msgid "Portrait"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:77
+msgid "Landscape"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:81
+#: views/admin/booking-form-config.php:79
+msgid "Theme"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:83
+msgid "Light"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:84
+msgid "Dark"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:85
+msgid "None"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:96
+msgid "Absolute"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:97
+msgid "Relative to today"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:98
+msgid "Relative to day of week"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:102
+#: src/Eviivo/Plugin/Model/BookingForm.php:557
+msgid "Monday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:103
+#: src/Eviivo/Plugin/Model/BookingForm.php:558
+msgid "Tuesday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:104
+#: src/Eviivo/Plugin/Model/BookingForm.php:559
+msgid "Wednesday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:105
+#: src/Eviivo/Plugin/Model/BookingForm.php:560
+msgid "Thursday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:106
+#: src/Eviivo/Plugin/Model/BookingForm.php:561
+msgid "Friday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:107
+#: src/Eviivo/Plugin/Model/BookingForm.php:562
+msgid "Saturday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:108
+#: src/Eviivo/Plugin/Model/BookingForm.php:556
+msgid "Sunday"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:111
+msgid "Check In Date Type"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:115
+msgid "Check In relative days offset"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:118
+msgid "Check In date"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:121
+msgid "Check In Relative Day"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:126
+msgid "Check Out Date Type"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:130
+msgid "Check Out relative days offset"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:133
+msgid "Check Out date"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:136
+msgid "Check Out Relative Day"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:157
+msgid "Room count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:160
+msgid "Adult count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:163
+msgid "Child count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:166
+msgid "Default room count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:169
+msgid "Default adult count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:172
+msgid "Default child count"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:227
+#: views/admin/booking-form-config.php:250
+msgid "Exclude javascript"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:229
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:236
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:248
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:267
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:279
+msgid "No"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:230
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:237
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:249
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:268
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:280
+msgid "Yes"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:234
+#: views/admin/booking-form-config.php:255
+msgid "Exclude CSS"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:246
+#: views/admin/booking-form-config.php:108
+msgid "Use custom colors"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:253
+#: views/admin/booking-form-config.php:113
+msgid "Text color"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:256
+#: views/admin/booking-form-config.php:118
+msgid "Background color"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:259
+#: views/admin/booking-form-config.php:123
+msgid "Submit Button Text color"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:262
+#: views/admin/booking-form-config.php:128
+msgid "Submit Button Background color"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:265
+#: views/admin/booking-form-config.php:133
+msgid "Has transparent background"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:277
+#: views/admin/booking-form-config.php:143
+msgid "Use custom font size"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:284
+#: views/admin/booking-form-config.php:139
+#: views/admin/booking-form-config.php:148
+msgid "Font size"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:287
+#: views/admin/booking-form-config.php:153
+msgid "Submit Button Font size"
+msgstr ""
+
+#: src/Eviivo/Plugin/Admin/Pages/Main.php:36
+msgid "Information saved."
+msgstr ""
+
+#: src/Eviivo/Plugin/Ajax/Calls/BookingFormHtml.php:30
+#, php-format
+msgid ""
+"You can change all the defaults from the plugin <a target=\"_blank\" href="
+"\"%s\">page</a>"
+msgstr ""
+
+#: src/Eviivo/Plugin/Elements/Form.php:166
+#, php-format
+msgid "Invalid data. Please correct the fallwoing fields: %s"
+msgstr ""
+
+#: src/Eviivo/Plugin/Elements/Form/Input.php:139
+#, php-format
+msgid "The %s field is mandatory"
+msgstr ""
+
+#: src/Eviivo/Plugin/Elements/Form/Select.php:77
+msgid "Please select on of the avaible options"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:343
+#, php-format
+msgid ""
+"Please fill in the Hotel Refrence field in the <a href=\"%s\">Setup</a> tab."
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:539
+msgid "Previous Month"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:540
+msgid "Next Month"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:542
+msgid "January"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:543
+msgid "February"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:544
+msgid "March"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:545
+msgid "April"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:546
+msgid "May"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:547
+msgid "June"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:548
+msgid "July"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:549
+msgid "August"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:550
+msgid "September"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:551
+msgid "October"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:552
+msgid "November"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:553
+msgid "December"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:565
+msgid "Sun"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:566
+msgid "Mon"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:567
+msgid "Tue"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:568
+msgid "Wed"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:569
+msgid "Thu"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:570
+msgid "Fri"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:571
+msgid "Sat"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:831
+msgid "Check In"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:832
+msgid "Check Out"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:833
+msgid "Rooms"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:834
+#, php-format
+msgid "Room #%d"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:835
+msgid "Adults"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:836
+msgid "Children"
+msgstr ""
+
+#: src/Eviivo/Plugin/Model/BookingForm.php:837
+msgid "Show Prices"
+msgstr ""
+
+#: src/Eviivo/Plugin/Widgets/BookingForm.php:19
+msgid "Booking Form"
+msgstr ""
+
+#: src/Eviivo/Plugin/Widgets/BookingForm.php:20
+msgid "Auto generated booking form from Eviivo"
+msgstr ""
+
+#: src/Eviivo/Plugin/Widgets/BookingForm.php:68
+#: views/admin/booking-form-config.php:22
+msgid "Title"
+msgstr ""
+
+#: src/Eviivo/Plugin/Widgets/BookingForm.php:90
+msgid "Shortcode"
+msgstr ""
+
+#: src/Eviivo/Plugin/Widgets/BookingForm.php:104
+msgid "Edit"
+msgstr ""
+
+#: views/admin/booking-form-config.php:16
+msgid "Configuration"
+msgstr ""
+
+#: views/admin/booking-form-config.php:27
+msgid "Inherit from global options"
+msgstr ""
+
+#: views/admin/booking-form-config.php:37
+msgid "Setup"
+msgstr ""
+
+#: views/admin/booking-form-config.php:43
+msgid "Labels"
+msgstr ""
+
+#: views/admin/booking-form-config.php:46
+msgid "Appearance"
+msgstr ""
+
+#: views/admin/booking-form-config.php:49
+msgid "Advanced"
+msgstr ""
+
+#: views/admin/booking-form-config.php:53 views/admin/main.php:27
+#: views/admin/main.php:32
+msgid "Preview"
+msgstr ""
+
+#: views/admin/booking-form-config.php:83
+msgid ""
+"\"None\" layout - you will have to manage the CSS style from your theme "
+"files. You can view the HTML structure of the Form in the Configuration -> "
+"Code tab."
+msgstr ""
+
+#: views/admin/booking-form-config.php:98
+msgid ""
+"Leaving the labels empty will tell the plugin to get the default labels from "
+"the .PO dictionary."
+msgstr ""
+
+#: views/admin/booking-form-config.php:104
+msgid "Colors"
+msgstr ""
+
+#: views/admin/booking-form-config.php:162
+msgid "Check In Date"
+msgstr ""
+
+#: views/admin/booking-form-config.php:165
+#: views/admin/booking-form-config.php:190
+msgid "Type"
+msgstr ""
+
+#: views/admin/booking-form-config.php:170
+#: views/admin/booking-form-config.php:195
+msgid "Days offset"
+msgstr ""
+
+#: views/admin/booking-form-config.php:175
+#: views/admin/booking-form-config.php:200
+msgid "Date"
+msgstr ""
+
+#: views/admin/booking-form-config.php:180
+#: views/admin/booking-form-config.php:205
+msgid "Next"
+msgstr ""
+
+#: views/admin/booking-form-config.php:187
+msgid "Check Out Date"
+msgstr ""
+
+#: views/admin/booking-form-config.php:212
+msgid "Rooms numbers"
+msgstr ""
+
+#: views/admin/booking-form-config.php:216
+msgid "Room Count"
+msgstr ""
+
+#: views/admin/booking-form-config.php:221
+msgid "Default Rooms"
+msgstr ""
+
+#: views/admin/booking-form-config.php:226
+msgid "Adult Count"
+msgstr ""
+
+#: views/admin/booking-form-config.php:231
+msgid "Default Adults"
+msgstr ""
+
+#: views/admin/booking-form-config.php:236
+msgid "Child Count"
+msgstr ""
+
+#: views/admin/booking-form-config.php:241
+msgid "Default Children"
+msgstr ""
+
+#: views/admin/booking-form-config.php:246
+msgid "Front end resources"
+msgstr ""
+
+#: views/admin/main.php:11
+msgid "eviivo Booking Form Configurator"
+msgstr ""
+
+#: views/admin/main.php:35
+msgid "Code"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Eviivo Booking Form"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://eviivo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "eviivo booking form generator"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "eviivo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://eviivo.com"
+msgstr ""

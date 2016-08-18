@@ -1,0 +1,166 @@
+.eviivo-booking-form-generator {
+	position: relative;
+	
+
+	h2 {
+		border-bottom: 1px solid #eee;
+	}
+
+	pre, code {
+		display: block;
+		width: 100%;
+	}
+
+	code {
+		overflow: auto;
+		box-sizing: border-box;
+		padding: 5px;
+		font-size: 12px;
+	}
+}
+
+.eviivo-booking-form-config {
+	.eviivo-input-actions {
+		border-top: 1px solid #DDD;
+		padding-top: 20px;
+		overflow: hidden;
+
+		button {
+			border: none;
+			background: #FCAF17;
+			padding: 5px 20px;
+			color: #000;
+			cursor: pointer;
+		}
+
+		.eviivo-btn-primary {
+			float: right;
+		}
+	}
+
+	input, select {
+		&.error {
+			border-color: red;
+		}
+	}
+
+	.eviivo-admin-input-row {
+		margin-bottom: 0.5em;
+		position: relative;
+		
+		&:after {
+			content: ' ';
+			display: block;
+			width: 0;
+			height: 0;
+			overflow: hidden;
+			position: relative;
+			clear: both;
+		}
+		
+		label {
+			float: left;
+			width: 200px;
+		}
+	}
+
+	.eviivo-admin-input-label {
+		margin: 1em 0;
+		padding-bottom: 0.5em;
+		font-weight: bold;
+		border-bottom: 3px solid #DDD;
+	}
+	
+	.eviivo-tooltip-wrapper {
+		float: right;
+	}
+}
+
+.eviivo-booking-form-generator-control, .eviivo-booking-form-generator-preview {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.eviivo-booking-form-generator-control {
+	float: left;
+	width: 40%;
+	padding-right: 10px;
+}
+
+.eviivo-booking-form-generator-preview {
+	padding-left: 10px;
+	float: right;
+	width: 60%;	
+	position: relative;
+}
+.eviivo-booking-form-preview {
+	transition: opacity 0.25s;
+	position: relative;
+	overflow: hidden;
+
+	&:after {
+		content: attr(data-eviivo-loading-message);
+		position: absolute;
+		top: -300px;
+		left: 50%;
+		width: 100px;
+		margin-left: -50px;
+		background: #FFF;
+		border-radius: 3px;
+		border-bottom: 1px solid #eee;
+		box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		padding: 20px 0;
+		color: #444;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: bold;
+		transition: top 0.25s;
+	}
+
+	&.loading {
+		opacity: 0.5;
+		&:after {
+			top: 20px;
+		}
+	}
+}
+
+.widget {
+	.eviivo-booking-form-generator-control {
+		float: none;
+		width: auto;
+		padding-right: 0;
+		margin-top: 10px;
+
+		h2 {
+			display: none;
+		}
+
+		.eviivo-tabs a {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		button[type="submit"] {
+			display: none;
+		}
+	}
+}
+
+.toplevel_page_eviivo-booking-widget h1 {
+	margin-bottom: 20px;
+}
+
+.eviivo-booking-form-generator-labels {
+	input::-webkit-input-placeholder {
+		color: #DDD;
+	}
+
+	input::-moz-placeholder {
+		color: #DDD;  
+	}
+
+	input:-ms-input-placeholder {  
+		color: #DDD;  
+	}
+}

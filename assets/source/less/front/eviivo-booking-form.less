@@ -1,0 +1,339 @@
+html body {
+
+	.eviivo-booking-form {
+		background: #eee;
+		padding: 15px 10px;
+		box-sizing: border-box;
+		box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+		border: 1px solid #DDD;
+		border-radius: 2px;
+
+		&, input, select {
+			font-size: 14px;
+		}
+
+		&.eviivo-booking-form-theme-light {
+			background: #FFF;
+			color: #666;
+		}
+
+		&.eviivo-booking-form-theme-dark {
+			background: #393939;
+			color: #CCC;
+			text-shadow: 1px 1px 1px #111;
+			border-color: #444;
+
+			.eviivo-input-rooms {
+				background: #393939;
+				border-top-color: #444;
+			}
+
+			.eviivo-room {
+				background: #393939;
+				border-bottom-color: #444;
+
+				&:nth-child(even) {
+					background: #222;
+				}
+			}
+		}
+
+		&.eviivo-booking-form-layout-portrait {
+			max-width: 300px;
+		}
+
+		&.eviivo-booking-form-layout-landscape {
+			overflow: hidden;
+			position: relative;
+
+			label {
+				line-height: 25px;
+				display: block;
+				margin-bottom: 5px;
+			}
+
+			.eviivo-input-checkout {
+				text-align: left;
+				input[type="text"] {
+					margin-left: 0;
+					text-align: left;
+				}
+
+				&:after {
+					left: 20px;
+				}
+			}
+
+			.eviivo-input-checkin, .eviivo-input-checkout {
+				width: 140px;
+			}
+
+			.eviivo-input-row {
+				width: 140px;
+				float: left;
+				margin-bottom: 15px;
+			}
+
+			.eviivo-input-rooms {
+				clear: none;
+				width: auto;
+				border-top: none;
+				padding: 0 20px;
+			}
+
+			.eviivo-rooms {
+				width: auto;
+				border-top: none;
+			}
+
+			.eviivo-room {
+				width: auto;
+				padding: 0 20px;
+
+			}
+
+			.eviivo-rooms-selector {
+				&.eviivo-multiple-rooms {
+					.eviivo-rooms {
+						width: auto;
+						float: none;
+						clear: both;
+					}
+
+					.eviivo-room {
+						float: none;
+						border-bottom: 0;
+						.eviivo-room-label {
+							padding-top: 0;
+							padding-top: 4px;
+						}
+
+						label {
+							display: inline-block;
+						}
+
+						.eviivo-room-label, .eviivo-adults, .eviivo-children {
+							width: auto; 
+							margin-right: 10px;
+						}
+					}
+				}
+
+				&.eviivo-room-count-1 {
+					clear: none;
+					border-top: none;
+					
+					.eviivo-input-rooms {
+						width: auto;
+					}
+
+					.eviivo-room {
+						.eviivo-room-label, .eviivo-adults, .eviivo-children {
+							width: auto; 
+						}
+					}
+				}
+			}
+		}
+
+		.eviivo-input-row {
+			margin-bottom: 1em;
+		}
+
+
+		input[type="text"], select {
+			border: 1px solid #AAA;
+			background: #FFF;
+			padding: 3px 5px;
+			height: auto;
+			border-radius: 3px;
+			margin: 0;
+		}
+
+		.eviivo-input-checkin, .eviivo-input-checkout {
+			float: left;
+			width: 50%;
+
+			.eviivo-input-label {
+				display: block;
+				margin-bottom: 5px;
+			}
+		}
+
+		.eviivo-input-checkin, .eviivo-input-checkout {
+			position: relative;
+			box-sizing: border-box;
+
+			&:after {
+				content: ' ';
+				position: absolute;
+				bottom: 10px;
+				left: 10px;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 8px 4px 0 4px;
+				border-color: #CCC transparent transparent transparent;
+			}
+
+			&:hover {
+				&:after {
+					border-color: #999 transparent transparent transparent;
+				}
+
+				input[type="text"] {
+					border-color: #999;
+				}
+			}
+
+			input[type="text"] {
+				padding-left: 25px;
+				cursor: pointer;
+				width: 100%;
+			}
+		}
+
+		.eviivo-input-checkin {
+			padding-right: 10px; 
+		}
+
+		.eviivo-input-checkout {
+			text-align: right;
+			padding-left: 10px;
+			input[type="text"] {
+				margin-left: auto;
+			}
+			&:after {
+				left: 20px;
+			}
+		}
+
+		.eviivo-input-date {
+			width: 120px;
+			display: block;
+			position: relative;
+		}
+
+		.eviivo-input-rooms {
+			clear: both;
+			border-top: 1px dotted #DDD;
+
+			padding-top: 10px;
+			padding-bottom: 1em;
+			margin-bottom: 0;
+			background: #FFF;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		.eviivo-button-primary {
+			display: block;
+			width: 100%;
+			border: none;
+			background: #393939;
+			color: #FFF;
+			text-transform: uppercase;
+			margin-bottom: 0;
+			padding: 10px 0;
+			height: auto;
+		}
+
+		.eviivo-room {
+			position: relative;
+			overflow: hidden;
+			background: #FFF;
+			border-bottom: 1px solid #DDD;
+			padding: 10px 5px;
+			font-size: 90%;
+
+			&:nth-child(even) {
+				background: #F8F8F8;
+			}
+
+			.eviivo-room-label, .eviivo-adults, .eviivo-children {
+				float: left;
+				box-sizing: border-box;
+			}
+
+			.eviivo-room-label {
+				width: 20%;
+				padding-top: 5px;
+			}
+
+			.eviivo-adults {
+				width: 40%;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.eviivo-children {
+				width: 40%;
+			}
+		}
+	}
+
+	.pika-single {
+
+		.pika-button {
+			border-radius: 0;
+		}
+
+		.is-selected .pika-button, .pika-button {
+			&.eviivo-interval {
+				background: #fcaf17;
+			}
+		}
+
+		.is-selected .pika-button {
+			&.eviivo-interval {
+				box-shadow: inset 0 0 4px #AB7202;
+			}
+		}
+	}
+
+
+	.eviivo-widget {
+
+	}
+
+	.eviivo-rooms-selector {
+		&:after {
+			content: ' ';
+			height: 0;
+			width: 0;
+			position: relative;
+			overflow: hidden;
+			clear: both;
+		}
+
+		&.eviivo-room-count-1 {
+
+			border-top: 1px dotted #ddd;
+			clear: both;
+
+			.eviivo-input-rooms {
+				float: left;
+				width: 25%;
+				border-top: none;
+			}
+
+			.eviivo-input-row eviivo-rooms {
+				float: right;
+				width: 75%;
+			}
+
+			.eviivo-room {
+
+				border-bottom: none;
+
+				.eviivo-room-label {
+					display: none;
+				}
+
+				.eviivo-adults, .eviivo-children {
+					width: 50%;
+				}
+			}
+		}
+	}
+}

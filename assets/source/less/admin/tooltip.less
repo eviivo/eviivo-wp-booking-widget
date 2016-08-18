@@ -1,0 +1,54 @@
+.eviivo-tooltip-wrapper {
+	position: relative;
+}
+
+.eviivo-tooltip-trigger {
+	width: 24px;
+	height: 24px;
+	border: none;
+	background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI5NS44MiAyOTUuODIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI5NS44MiAyOTUuODIiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgogIDxnPgogICAgPGc+CiAgICAgIDxwYXRoIGQ9Im0xNTQuODcxLDY5LjYwNWMtMTAuNDQxLTMuNDgtMjIuNjIxLDAtMzEuMzIyLDYuOTYtOC43MDEsNi45Ni0xMy45MjEsMTcuNDAxLTEzLjkyMSwyOS41ODIgMCw1LjIyIDMuNDgsOC43MDEgOC43MDEsOC43MDEgNS4yMiwwIDguNzAxLTMuNDggOC43MDEtOC43MDEgMC01LjIyIDEuNzQtMTIuMTgxIDYuOTYtMTUuNjYxIDUuMjItMy40OCAxMC40NDEtNS4yMiAxNy40MDEtMy40OCA4LjcwMSwxLjc0IDEzLjkyMSw4LjcwMSAxNS42NjEsMTUuNjYxIDEuNzQsOC43MDEgMCwxNS42NjEtNi45NiwyMC44ODItMTMuOTIxLDEwLjQ0MS0yMC44ODIsMjYuMTAyLTIwLjg4Miw0MS43NjMgMCw1LjIyIDMuNDgsOC43MDEgOC43MDEsOC43MDEgNS4yMiwwIDguNzAxLTMuNDggNi45Ni04LjcwMSAwLTEwLjQ0MSA2Ljk2LTIwLjg4MiAxNS42NjEtMjcuODQyIDEyLjE4MS0xMC40NDEgMTcuNDAxLTI0LjM2MiAxMy45MjEtMzguMjgzLTMuNDgxLTE1LjY2MS0xNS42NjEtMjYuMTAyLTI5LjU4Mi0yOS41ODJ6IiBmaWxsPSIjMDAwMDAwIi8+CiAgICAgIDxwYXRoIGQ9Im0xNDAuOTUsMjEwLjU1NWMtMS43NCwxLjc0LTEuNzQsNS4yMi0xLjc0LDYuOTYgMCwxLjc0IDAsMy40OCAxLjc0LDUuMjIgMS43NCwxLjc0IDUuMjIsMy40OCA2Ljk2LDMuNDggMS43NCwwIDUuMjItMS43NCA1LjIyLTMuNDggMS43NCwwIDMuNDgtMy40OCAzLjQ4LTUuMjIgMC0zLjQ4LTEuNzQtNS4yMi0zLjQ4LTYuOTYtMy40OC0zLjQ4MS04LjctMy40ODEtMTIuMTgsMHoiIGZpbGw9IiMwMDAwMDAiLz4KICAgICAgPHBhdGggZD0iTTE0Ny45MSwwQzY2LjEyNCwwLDAsNjYuMTI0LDAsMTQ3LjkxczY2LjEyNCwxNDcuOTEsMTQ3LjkxLDE0Ny45MXMxNDcuOTEtNjYuMTI0LDE0Ny45MS0xNDcuOTFTMjI5LjY5NiwwLDE0Ny45MSwweiAgICAgTTE0Ny45MSwyNzguNDE5Yy03MS4zNDUsMC0xMzAuNTA5LTU5LjE2NC0xMzAuNTA5LTEzMC41MDlTNzYuNTY1LDE3LjQwMSwxNDcuOTEsMTcuNDAxUzI3OC40MTksNzYuNTY1LDI3OC40MTksMTQ3LjkxICAgIFMyMTkuMjU1LDI3OC40MTksMTQ3LjkxLDI3OC40MTl6IiBmaWxsPSIjMDAwMDAwIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.eviivo-tooltip-content {
+	z-index: 10;
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background: #F8F8F8;
+	padding: 5px 10px;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	width: 400px;
+	border: 3px solid #DDD;
+	margin-top: 15px;
+	box-sizing: border-box;
+	
+	&:after {
+		content: ' ';
+		position: absolute;
+		bottom: 100%;
+		right: 0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 10px 15px 10px;
+		border-color: transparent transparent #DDD transparent;
+	}
+	
+	&.open {
+		display: block;
+	}
+}
+
+
+.eviivo-clearfix:after {
+	content: ' ';
+	display: block;
+	width: auto;
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+}

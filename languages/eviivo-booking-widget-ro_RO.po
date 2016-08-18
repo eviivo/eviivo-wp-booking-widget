@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eviivo Booking Form\n"
+"POT-Creation-Date: 2016-07-11 15:14+0300\n"
+"PO-Revision-Date: 2016-07-11 15:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eviivo-booking-widget.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:22
+#: views/admin/main.php:41
+msgid "Hotel Reference"
+msgstr "ID Hotelului"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:26
+#: views/admin/main.php:46
+msgid "Language"
+msgstr "Limba"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:28
+msgid "Engligh (US)"
+msgstr "Engleza (US)"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:29
+msgid "Engligh (UK)"
+msgstr "Engleza (UK)"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:30
+msgid "German (DE)"
+msgstr "Germana (DE)"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:31
+msgid "Romanina (RO)"
+msgstr "Romana (RO)"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:35
+#: views/admin/main.php:31 views/admin/main.php:54
+msgid "Layout"
+msgstr "Asezare"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:37
+msgid "Portrait"
+msgstr "Portret"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:38
+msgid "Landscape"
+msgstr "Pe latime"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:42
+#: views/admin/main.php:59
+msgid "Theme"
+msgstr "Culori"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:44
+msgid "Light"
+msgstr "Luminos"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:45
+msgid "Dark"
+msgstr "Întunecat"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:46
+msgid "None"
+msgstr "Nimic"
+
+#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:51
+msgid "Submit"
+msgstr "Salveaza"
+
+#: Eviivo/Plugin/Admin/Pages/Main.php:45
+msgid "Information saved."
+msgstr "Informaţiile salvate."
+
+#: Eviivo/Plugin/Elements/Form.php:157
+#, php-format
+msgid "Invalid data. Please correct the fallwoing fields: %s"
+msgstr "Date invalide. Corectează câmpurile următoare: %s"
+
+#: Eviivo/Plugin/Elements/Form/Input.php:127
+#, php-format
+msgid "The %s field is mandatory"
+msgstr "Câmpul %s este obligatoriu"
+
+#: Eviivo/Plugin/Elements/Form/Select.php:77
+msgid "Please select on of the avaible options"
+msgstr "Vă rugăm să selectaţi dintre opţiunile disponibile"
+
+#: Eviivo/Plugin/Model/BookingForm.php:147
+#, php-format
+msgid ""
+"Please fill in the Hotel Refrence field in the <a href=\"%s\">Setup</a> tab."
+msgstr ""
+"Vă rugăm să completaţi câmpul ID Hotel din fila <a href=\"%s\">configurare</"
+"a> ."
+
+#: Eviivo/Plugin/Util.php:104
+msgid "Previous Month"
+msgstr "Luna precedentă"
+
+#: Eviivo/Plugin/Util.php:105
+msgid "Next Month"
+msgstr "Luna următoare"
+
+#: Eviivo/Plugin/Util.php:107
+msgid "January"
+msgstr "Ianuarie"
+
+#: Eviivo/Plugin/Util.php:108
+msgid "February"
+msgstr "Februarie"
+
+#: Eviivo/Plugin/Util.php:109
+msgid "March"
+msgstr "Martie"
+
+#: Eviivo/Plugin/Util.php:110
+msgid "April"
+msgstr "Aprilie"
+
+#: Eviivo/Plugin/Util.php:111
+msgid "May"
+msgstr "Mai"
+
+#: Eviivo/Plugin/Util.php:112
+msgid "June"
+msgstr "Iunie"
+
+#: Eviivo/Plugin/Util.php:113
+msgid "July"
+msgstr "Iulie"
+
+#: Eviivo/Plugin/Util.php:114
+msgid "August"
+msgstr "August"
+
+#: Eviivo/Plugin/Util.php:115
+msgid "September"
+msgstr "Septembrie"
+
+#: Eviivo/Plugin/Util.php:116
+msgid "October"
+msgstr "Octombrie"
+
+#: Eviivo/Plugin/Util.php:117
+msgid "November"
+msgstr "Noiembrie"
+
+#: Eviivo/Plugin/Util.php:118
+msgid "December"
+msgstr "Decembrie"
+
+#: Eviivo/Plugin/Util.php:121
+msgid "Sunday"
+msgstr "Duminică"
+
+#: Eviivo/Plugin/Util.php:122
+msgid "Monday"
+msgstr "Luni"
+
+#: Eviivo/Plugin/Util.php:123
+msgid "Tuesday"
+msgstr "Marți"
+
+#: Eviivo/Plugin/Util.php:124
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: Eviivo/Plugin/Util.php:125
+msgid "Thursday"
+msgstr "Joi"
+
+#: Eviivo/Plugin/Util.php:126
+msgid "Friday"
+msgstr "Vineri"
+
+#: Eviivo/Plugin/Util.php:127
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: Eviivo/Plugin/Util.php:130
+msgid "Sun"
+msgstr "Dum"
+
+#: Eviivo/Plugin/Util.php:131
+msgid "Mon"
+msgstr "Lu"
+
+#: Eviivo/Plugin/Util.php:132
+msgid "Tue"
+msgstr "Mar"
+
+#: Eviivo/Plugin/Util.php:133
+msgid "Wed"
+msgstr "Mie"
+
+#: Eviivo/Plugin/Util.php:134
+msgid "Thu"
+msgstr "Joi"
+
+#: Eviivo/Plugin/Util.php:135
+msgid "Fri"
+msgstr "Vi"
+
+#: Eviivo/Plugin/Util.php:136
+msgid "Sat"
+msgstr "Sâm"
+
+#: Eviivo/Plugin/Widgets/BookingForm.php:10
+msgid "Booking Form"
+msgstr "Formular de rezervare"
+
+#: Eviivo/Plugin/Widgets/BookingForm.php:11
+msgid "Auto generated booking form from Eviivo"
+msgstr "Formular de rezervare eviivo"
+
+#: views/admin/main.php:10
+msgid "eviivo Booking Form Configurator"
+msgstr "Configurator Formular Rezervare eviivo "
+
+#: views/admin/main.php:22 views/admin/main.php:83
+msgid "Configuration"
+msgstr "Configurare"
+
+#: views/admin/main.php:28
+msgid "Setup"
+msgstr "Configurare"
+
+#: views/admin/main.php:34
+msgid "Advanced"
+msgstr "Avansat"
+
+#: views/admin/main.php:63
+msgid ""
+"\"None\" layout - you will have to manage the CSS style from your theme "
+"files. You can view the HTML structure of the Form in the COnfiguration -> "
+"Code tab."
+msgstr ""
+"\"Nimic\" la aspect - va trebui să gestionaţi CSS-ul din cadrul temei "
+"wordpress. Puteţi vizualiza structura HTML a formularului alături."
+
+#: views/admin/main.php:89
+msgid "Preview"
+msgstr "Previzualizează"
+
+#: views/admin/main.php:92
+msgid "Code"
+msgstr "Cod"
+
+#: views/admin/main.php:100
+msgid "Loading"
+msgstr "Se încarcră"
+
+#: views/booking-form.php:15
+msgid "Check in"
+msgstr "Check in"
+
+#: views/booking-form.php:20
+msgid "Check out"
+msgstr "Check out"
+
+#: views/booking-form.php:25
+msgid "Rooms"
+msgstr "Nr. Camere"
+
+#: views/booking-form.php:33 views/booking-form.php:34
+#, php-format
+msgid "Room #%d"
+msgstr "Camera #%d"
+
+#: views/booking-form.php:37
+msgid "Adults"
+msgstr "Adulți"
+
+#: views/booking-form.php:44
+msgid "Children"
+msgstr "Copii"
+
+#: views/booking-form.php:53
+msgid "Show Prices"
+msgstr "Arată preţuri"
+
+#. Plugin Name of the plugin/theme
+msgid "Eviivo Booking Form"
+msgstr "Formularul de rezervare eviivo"
+
+#. Plugin URI of the plugin/theme
+msgid "http://eviivo.com"
+msgstr "http://eviivo.com"
+
+#. Description of the plugin/theme
+msgid "eviivo booking form generator"
+msgstr "Configurator Formular Rezervare eviivo "
+
+#. Author of the plugin/theme
+msgid "eviivo"
+msgstr "eviivo"
+
+#. Author URI of the plugin/theme
+msgid "https://eviivo.com"
+msgstr "https://eviivo.com"
+
+#~ msgid "Eviivo Booking Form Configurator"
+#~ msgstr "Configurator Formular Rezervare Eviivo "
