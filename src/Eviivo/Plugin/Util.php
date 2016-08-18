@@ -1,9 +1,9 @@
 <?php
 
-	namespace Eviivo\Plugin;
+	namespace eviivo\Plugin;
 
-	use Eviivo\Plugin\Ajax\Request;
-	use Eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Ajax\Request;
+	use eviivo\Plugin\Helpers\Php\View;
 
 	/**
 	 *  
@@ -126,4 +126,3 @@
 		}
 
 	}
-	

@@ -1,10 +1,10 @@
 <?php
 
-	namespace Eviivo\Plugin\Model;
+	namespace eviivo\Plugin\Model;
 
-	use Eviivo\Plugin\Admin\Pages\Main;
-	use Eviivo\Plugin\Helpers\Php\View;
-	use Eviivo\Plugin\Util;
+	use eviivo\Plugin\Admin\Pages\Main;
+	use eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Util;
 
 	/**
 	 *  
@@ -270,7 +270,7 @@
 		/**
 		 * 
 		 * @param string $layout
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLayout($layout) {
 			$this->layout = $layout;
@@ -312,7 +312,7 @@
 		/**
 		 * 
 		 * @param string $hotelReference
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setHotelReference($hotelReference) {
 			$this->hotelReference = $hotelReference;
@@ -358,7 +358,7 @@
 		/**
 		 * 
 		 * @param string $languageCode
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLanguageCode($languageCode) {
 			$this->languageCode = $languageCode;
@@ -376,7 +376,7 @@
 		/**
 		 * 
 		 * @param string $theme
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setTheme($theme) {
 			$this->theme = $theme;
@@ -459,7 +459,7 @@
 		/**
 		 * 
 		 * @param string $shortCode
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function hydrateFromShortCode($shortCode) {
 
@@ -484,7 +484,7 @@
 		/**
 		 * 
 		 * @param array $data
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function hydrateFromArray($data) {
 
@@ -578,7 +578,7 @@
 		/**
 		 * 
 		 * @param string $checkInDateType
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckInDateType($checkInDateType) {
 			$this->checkInDateType = $checkInDateType;
@@ -588,7 +588,7 @@
 		/**
 		 * 
 		 * @param string $checkOutDateType
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckOutDateType($checkOutDateType) {
 			$this->checkOutDateType = $checkOutDateType;
@@ -614,7 +614,7 @@
 		/**
 		 * 
 		 * @param type $checkInDateRelativeDays
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckInDateRelativeDays($checkInDateRelativeDays) {
 			$this->checkInDateRelativeDays = $checkInDateRelativeDays;
@@ -624,7 +624,7 @@
 		/**
 		 * 
 		 * @param int $checkOutDateRelativeDays
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckOutDateRelativeDays($checkOutDateRelativeDays) {
 			$this->checkOutDateRelativeDays = $checkOutDateRelativeDays;
@@ -739,7 +739,7 @@
 		/**
 		 * 
 		 * @param string $labelCheckin
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelCheckin($labelCheckin) {
 			$this->labelCheckIn = $labelCheckin;
@@ -749,7 +749,7 @@
 		/**
 		 * 
 		 * @param string $labelCheckOut
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelCheckOut($labelCheckOut) {
 			$this->labelCheckOut = $labelCheckOut;
@@ -759,7 +759,7 @@
 		/**
 		 * 
 		 * @param string $labelRooms
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelRooms($labelRooms) {
 			$this->labelRooms = $labelRooms;
@@ -769,7 +769,7 @@
 		/**
 		 * 
 		 * @param string $labelRoom
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelRoom($labelRoom) {
 			$this->labelRoom = $labelRoom;
@@ -779,7 +779,7 @@
 		/**
 		 * 
 		 * @param string $labelAdults
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelAdults($labelAdults) {
 			$this->labelAdults = $labelAdults;
@@ -789,7 +789,7 @@
 		/**
 		 * 
 		 * @param string $labelChildren
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelChildren($labelChildren) {
 			$this->labelChildren = $labelChildren;
@@ -837,7 +837,7 @@
 		/**
 		 * 
 		 * @param string $labelShowPrices
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setLabelShowPrices($labelShowPrices) {
 			$this->labelShowPrices = $labelShowPrices;
@@ -878,7 +878,7 @@
 		/**
 		 * 
 		 * @param \DateTime $absoluteCheckInDate
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setAbsoluteCheckInDate(\DateTime $absoluteCheckInDate) {
 			$this->absoluteCheckInDate = $absoluteCheckInDate;
@@ -888,7 +888,7 @@
 		/**
 		 * 
 		 * @param \DateTime $absoluteCheckOutDate
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setAbsoluteCheckOutDate(\DateTime $absoluteCheckOutDate) {
 			$this->absoluteCheckOutDate = $absoluteCheckOutDate;
@@ -914,7 +914,7 @@
 		/**
 		 * 
 		 * @param int $checkInDateRelativeDay
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckInDateRelativeDay($checkInDateRelativeDay) {
 			$this->checkInDateRelativeDay = $checkInDateRelativeDay;
@@ -924,7 +924,7 @@
 		/**
 		 * 
 		 * @param int $checkOutDateRelativeDay
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setCheckOutDateRelativeDay($checkOutDateRelativeDay) {
 			$this->checkOutDateRelativeDay = $checkOutDateRelativeDay;
@@ -982,7 +982,7 @@
 		/**
 		 * 
 		 * @param int $roomsCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setRoomCount($roomsCount) {
 			$this->roomCount = $roomsCount;
@@ -992,7 +992,7 @@
 		/**
 		 * 
 		 * @param int $adultsCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setAdultCount($adultsCount) {
 			$this->adultCount = $adultsCount;
@@ -1002,7 +1002,7 @@
 		/**
 		 * 
 		 * @param int $childrenCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setChildCount($childrenCount) {
 			$this->childCount = $childrenCount;
@@ -1012,7 +1012,7 @@
 		/**
 		 * 
 		 * @param int $defaultRoomsCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setDefaultRoomCount($defaultRoomsCount) {
 			$this->defaultRoomCount = $defaultRoomsCount;
@@ -1022,7 +1022,7 @@
 		/**
 		 * 
 		 * @param int $defaultAdultsCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setDefaultAdultCount($defaultAdultsCount) {
 			$this->defaultAdultCount = $defaultAdultsCount;
@@ -1032,7 +1032,7 @@
 		/**
 		 * 
 		 * @param int $defaultChildrenCount
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setDefaultChildCount($defaultChildrenCount) {
 			$this->defaultChildCount = $defaultChildrenCount;
@@ -1059,7 +1059,7 @@
 		/**
 		 * 
 		 * @param boolean $includeFormTag
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setIncludeFormTag($includeFormTag) {
 			$this->includeFormTag = $includeFormTag;
@@ -1077,7 +1077,7 @@
 		/**
 		 * 
 		 * @param boolean $excludeJavascript
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setExcludeJavascript($excludeJavascript) {
 			$this->excludeJavascript = $excludeJavascript;
@@ -1095,7 +1095,7 @@
 		/**
 		 * 
 		 * @param boolean $excludeCss
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setExcludeCss($excludeCss) {
 			$this->excludeCss = $excludeCss;
@@ -1121,7 +1121,7 @@
 		/**
 		 * 
 		 * @param string $textColor
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setTextColor($textColor) {
 			$this->textColor = $textColor;
@@ -1131,7 +1131,7 @@
 		/**
 		 * 
 		 * @param string $backgroundColor
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setBackgroundColor($backgroundColor) {
 			$this->backgroundColor = $backgroundColor;
@@ -1149,7 +1149,7 @@
 		/**
 		 * 
 		 * @param int $fontSize
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setFontSize($fontSize) {
 			$this->fontSize = $fontSize;
@@ -1183,7 +1183,7 @@
 		/**
 		 * 
 		 * @param string $buttonTextColor
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setButtonTextColor($buttonTextColor) {
 			$this->buttonTextColor = $buttonTextColor;
@@ -1193,7 +1193,7 @@
 		/**
 		 * 
 		 * @param string $buttonBackgroundColor
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setButtonBackgroundColor($buttonBackgroundColor) {
 			$this->buttonBackgroundColor = $buttonBackgroundColor;
@@ -1203,7 +1203,7 @@
 		/**
 		 * 
 		 * @param int $buttonFontSize
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setButtonFontSize($buttonFontSize) {
 			$this->buttonFontSize = $buttonFontSize;
@@ -1221,7 +1221,7 @@
 		/**
 		 * 
 		 * @param boolean $hasTransparentBackground
-		 * @return \Eviivo\Plugin\Model\BookingForm 
+		 * @return \eviivo\Plugin\Model\BookingForm 
 		 */
 		public function setHasTransparentBackground($hasTransparentBackground) {
 			$this->hasTransparentBackground = $hasTransparentBackground;
@@ -1229,4 +1229,3 @@
 		}
 
 	}
-	

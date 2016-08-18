@@ -1,5 +1,5 @@
 <?php
-	/* @var $bookingForm Eviivo\Plugin\Model\BookingForm */
+	/* @var $bookingForm eviivo\Plugin\Model\BookingForm */
 
 	$checkInDate = $bookingForm->getCheckInDate();
 	$checkOutDate = $bookingForm->getCheckOutDate();

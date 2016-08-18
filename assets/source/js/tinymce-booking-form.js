@@ -5,7 +5,7 @@
 
 	tinymce.PluginManager.add('eviivo_booking_form', function (editor, url) {
 		editor.addButton('eviivo_booking_form', {
-			title: 'Eviivo',
+			title: 'eviivo',
 			cmd: 'eviivo_booking_form',
 			image: url + '/../images/editor-booking-icon.png'
 		});

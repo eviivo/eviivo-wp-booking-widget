@@ -1,11 +1,11 @@
 <?php
 
-	use Eviivo\Plugin\Util;
-	use Eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Util;
+	use eviivo\Plugin\Helpers\Php\View;
 
-/* @var $adminPage Eviivo\Plugin\Admin\Pages\Main */
-	/* @var $form Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig */
-	/* @var $bookingForm \Eviivo\Plugin\Model\BookingForm */
+/* @var $adminPage eviivo\Plugin\Admin\Pages\Main */
+	/* @var $form eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig */
+	/* @var $bookingForm \eviivo\Plugin\Model\BookingForm */
 ?>
 <div class="wrap" id="poststuff">
 	<h1><?php echo __('eviivo Booking Form Configurator', 'eviivo-booking-widget') ?></h1>

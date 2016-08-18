@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Project-Id-Version: Eviivo Booking Form\n"
+"Project-Id-Version: eviivo Booking Form\n"
 "POT-Creation-Date: 2016-07-06 17:18+0300\n"
 "PO-Revision-Date: 2016-07-06 17:18+0300\n"
 "Language-Team: \n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: views/main.php:2
-msgid "Eviivo Booking Form Configurator"
-msgstr "Eviivo Booking Form Configurator"
+msgid "eviivo Booking Form Configurator"
+msgstr "eviivo Booking Form Configurator"
 
 #. Plugin Name of the plugin/theme
-msgid "Eviivo Booking Form"
+msgid "eviivo Booking Form"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

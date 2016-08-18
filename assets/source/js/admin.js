@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	};
 
-	//Eviivo preview functionality
+	//eviivo preview functionality
 	(function () {
 
 		registerBookingFormConfig(document);

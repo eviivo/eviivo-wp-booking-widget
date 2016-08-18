@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Ajax;
+	namespace eviivo\Plugin\Ajax;
 
 	abstract class Request {
 
@@ -67,8 +67,8 @@
 
 		/**
 		 * 
-		 * @param \Eviivo\Plugin\Ajax\Response $response
-		 * @return \Eviivo\Plugin\Ajax\Request 
+		 * @param \eviivo\Plugin\Ajax\Response $response
+		 * @return \eviivo\Plugin\Ajax\Request 
 		 */
 		public function setResponse(Response $response) {
 			$this->response = $response;
@@ -78,7 +78,7 @@
 		/**
 		 * 
 		 * @param string $message
-		 * @return \Eviivo\Plugin\Ajax\Request 
+		 * @return \eviivo\Plugin\Ajax\Request 
 		 */
 		public function notAllowed($message = '401 Unauthorized') {
 			$this->response->setStatus($message);
@@ -89,7 +89,7 @@
 		/**
 		 * 
 		 * @param string $message
-		 * @return \Eviivo\Plugin\Ajax\Request 
+		 * @return \eviivo\Plugin\Ajax\Request 
 		 */
 		public function error($message = '500 Unauthorized') {
 			$this->response->setStatus($message);
@@ -98,4 +98,3 @@
 		}
 
 	}
-	

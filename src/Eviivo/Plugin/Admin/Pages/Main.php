@@ -1,11 +1,11 @@
 <?php
 
-	namespace Eviivo\Plugin\Admin\Pages;
+	namespace eviivo\Plugin\Admin\Pages;
 
-	use Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig;
-	use Eviivo\Plugin\Helpers\Php\View;
-	use Eviivo\Plugin\Admin\Pages\Base;
-	use Eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig;
+	use eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Admin\Pages\Base;
+	use eviivo\Plugin\Model\BookingForm;
 
 	/**
 	 *  
@@ -79,4 +79,3 @@
 		}
 
 	}
-	

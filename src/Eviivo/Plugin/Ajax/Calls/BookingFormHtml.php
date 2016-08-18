@@ -1,10 +1,10 @@
 <?php
 
-	namespace Eviivo\Plugin\Ajax\Calls;
+	namespace eviivo\Plugin\Ajax\Calls;
 
-	use Eviivo\Plugin\Ajax\JsonRequest;
-	use Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig;
-	use Eviivo\Plugin\Admin\Pages\Main;
+	use eviivo\Plugin\Ajax\JsonRequest;
+	use eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig;
+	use eviivo\Plugin\Admin\Pages\Main;
 
 	class BookingFormHtml extends JsonRequest {
 
@@ -35,4 +35,3 @@
 		}
 
 	}
-	

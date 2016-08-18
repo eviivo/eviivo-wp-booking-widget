@@ -1,9 +1,9 @@
 <?php
 
-	namespace Eviivo\Plugin\Admin\Pages;
+	namespace eviivo\Plugin\Admin\Pages;
 
-	use Eviivo\Plugin\Helpers\Php\View;
-	use Eviivo\Plugin\Util;
+	use eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Util;
 
 	/**
 	 *  
@@ -31,7 +31,7 @@
 
 		/**
 		 * 
-		 * @return \Eviivo\Plugin\Admin\Pages\Base 
+		 * @return \eviivo\Plugin\Admin\Pages\Base 
 		 */
 		public function register() {
 			$instance = $this;
@@ -160,7 +160,7 @@
 		/**
 		 * 
 		 * @param stirng $message
-		 * @return \Eviivo\Plugin\Admin\Pages\Base 
+		 * @return \eviivo\Plugin\Admin\Pages\Base 
 		 */
 		public function setMessage($message, $type = 'success') {
 			$this->message = $message;
@@ -179,7 +179,7 @@
 		/**
 		 * 
 		 * @param string $messageType
-		 * @return \Eviivo\Plugin\Admin\Pages\Base 
+		 * @return \eviivo\Plugin\Admin\Pages\Base 
 		 */
 		public function setMessageType($messageType) {
 			$this->messageType = $messageType;
@@ -187,4 +187,3 @@
 		}
 
 	}
-	

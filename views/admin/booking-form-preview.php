@@ -1,8 +1,8 @@
 <?php
 
-	use Eviivo\Plugin\Util;
+	use eviivo\Plugin\Util;
 
-/* @var $bookingForm \Eviivo\Plugin\Model\BookingForm */
+/* @var $bookingForm \eviivo\Plugin\Model\BookingForm */
 ?>
 
 <div class="eviivo-booking-form-preview"

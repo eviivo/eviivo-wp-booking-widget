@@ -1,10 +1,10 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements;
+	namespace eviivo\Plugin\Elements;
 
-	use Eviivo\Plugin\Elements\Form\Input;
-	use Eviivo\Plugin\Elements\Form\Checkbox;
-	use Eviivo\Plugin\Elements\Form\Button;
+	use eviivo\Plugin\Elements\Form\Input;
+	use eviivo\Plugin\Elements\Form\Checkbox;
+	use eviivo\Plugin\Elements\Form\Button;
 
 	/**
 	 *  
@@ -72,7 +72,7 @@
 
 		/**
 		 * 
-		 * @param \Eviivo\Plugin\Elements\HtmlTag $node
+		 * @param \eviivo\Plugin\Elements\HtmlTag $node
 		 * @return Form
 		 */
 		public function addChild(HtmlTag $node) {
@@ -202,7 +202,7 @@
 		/**
 		 * 
 		 * @param array $data
-		 * @return \Eviivo\Plugin\Elements\Form 
+		 * @return \eviivo\Plugin\Elements\Form 
 		 */
 		public function hydrateFromArray($data) {
 
@@ -244,7 +244,7 @@
 		/**
 		 * 
 		 * @param stirng $message
-		 * @return \Eviivo\Plugin\Admin\Pages\Base 
+		 * @return \eviivo\Plugin\Admin\Pages\Base 
 		 */
 		public function setMessage($message) {
 			$this->message = $message;
@@ -263,4 +263,3 @@
 		}
 
 	}
-	

@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements\Form;
+	namespace eviivo\Plugin\Elements\Form;
 
 	/**
 	 *  
@@ -22,7 +22,7 @@
 		/**
 		 * 
 		 * @param string $value
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setValue($value) {
 
@@ -32,4 +32,3 @@
 		}
 
 	}
-	

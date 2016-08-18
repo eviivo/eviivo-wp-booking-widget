@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Ajax;
+	namespace eviivo\Plugin\Ajax;
 
 	/**
 	 *  
@@ -105,7 +105,7 @@
 		/**
 		 * 
 		 * @param string $status
-		 * @return \Eviivo\Plugin\Ajax\Response 
+		 * @return \eviivo\Plugin\Ajax\Response 
 		 */
 		public function setStatus($status) {
 			$this->status = $status;
@@ -113,4 +113,3 @@
 		}
 
 	}
-	

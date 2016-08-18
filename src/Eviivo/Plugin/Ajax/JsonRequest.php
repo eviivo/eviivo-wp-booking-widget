@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Ajax;
+	namespace eviivo\Plugin\Ajax;
 
 	abstract class JsonRequest extends GenericRequest {
 
@@ -45,4 +45,3 @@
 		}
 
 	}
-	

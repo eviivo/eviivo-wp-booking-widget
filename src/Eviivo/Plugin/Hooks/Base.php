@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Hooks;
+	namespace eviivo\Plugin\Hooks;
 
 	/**
 	 *  
@@ -29,4 +29,3 @@
 		}
 		
 	}
-	

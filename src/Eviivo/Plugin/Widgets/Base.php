@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Widgets;
+	namespace eviivo\Plugin\Widgets;
 
 	abstract class Base extends \WP_Widget {
 
@@ -122,4 +122,3 @@
 		}
 
 	}
-	

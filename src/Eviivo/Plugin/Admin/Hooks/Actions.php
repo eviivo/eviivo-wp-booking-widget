@@ -1,10 +1,10 @@
 <?php
 
-	namespace Eviivo\Plugin\Admin\Hooks;
+	namespace eviivo\Plugin\Admin\Hooks;
 
-	use Eviivo\Plugin\Hooks\Base;
-	use Eviivo\Plugin\Util;
-	use Eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Hooks\Base;
+	use eviivo\Plugin\Util;
+	use eviivo\Plugin\Model\BookingForm;
 
 	/**
 	 *  
@@ -45,4 +45,3 @@
 		}
 
 	}
-	

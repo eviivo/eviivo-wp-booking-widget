@@ -1,6 +1,6 @@
 <?php
 
-	use Eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Model\BookingForm;
 
 $bookingForm = new BookingForm();
 
@@ -15,4 +15,3 @@ $bookingForm = new BookingForm();
 
 
 	echo $bookingForm->getHtml();
-	

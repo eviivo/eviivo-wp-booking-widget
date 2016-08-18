@@ -1,19 +1,19 @@
 <?php
 
-	namespace Eviivo\Plugin\Admin\Pages\Forms;
+	namespace eviivo\Plugin\Admin\Pages\Forms;
 
-	use Eviivo\Plugin\Elements\Form;
-	use Eviivo\Plugin\Elements\Form\Checkbox;
-	use Eviivo\Plugin\Elements\Form\Text;
-	use Eviivo\Plugin\Elements\Form\Color;
-	use Eviivo\Plugin\Elements\Form\Number;
-	use Eviivo\Plugin\Elements\Form\Date;
-	use Eviivo\Plugin\Elements\Form\Select;
-	use Eviivo\Plugin\Elements\Form\Button;
-	use Eviivo\Plugin\Model\BookingForm;
-	use Eviivo\Plugin\Model\BookingForm as BookingForModel;
-	use Eviivo\Plugin\Helpers\Php\View;
-	use Eviivo\Plugin\Util;
+	use eviivo\Plugin\Elements\Form;
+	use eviivo\Plugin\Elements\Form\Checkbox;
+	use eviivo\Plugin\Elements\Form\Text;
+	use eviivo\Plugin\Elements\Form\Color;
+	use eviivo\Plugin\Elements\Form\Number;
+	use eviivo\Plugin\Elements\Form\Date;
+	use eviivo\Plugin\Elements\Form\Select;
+	use eviivo\Plugin\Elements\Form\Button;
+	use eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Model\BookingForm as BookingForModel;
+	use eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Util;
 
 	/**
 	 *  
@@ -173,7 +173,7 @@
 		/**
 		 * 
 		 * @param BookingForModel $bookingFormModel
-		 * @return \Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig 
+		 * @return \eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig 
 		 */
 		public function setBookingFormModel(BookingForModel $bookingFormModel) {
 
@@ -201,7 +201,7 @@
 		/**
 		 * 
 		 * @param boolean $flag
-		 * @return \Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig 
+		 * @return \eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig 
 		 */
 		public function includePreviewTab($flag) {
 			$this->includePreviewTab = (boolean) $flag;
@@ -266,4 +266,3 @@
 		}
 
 	}
-	

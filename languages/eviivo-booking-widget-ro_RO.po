@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Eviivo Booking Form\n"
+"Project-Id-Version: eviivo Booking Form\n"
 "POT-Creation-Date: 2016-07-11 15:14+0300\n"
 "PO-Revision-Date: 2016-07-11 15:16+0300\n"
 "Last-Translator: \n"
@@ -21,85 +21,85 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:22
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:22
 #: views/admin/main.php:41
 msgid "Hotel Reference"
 msgstr "ID Hotelului"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:26
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:26
 #: views/admin/main.php:46
 msgid "Language"
 msgstr "Limba"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:28
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:28
 msgid "Engligh (US)"
 msgstr "Engleza (US)"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:29
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:29
 msgid "Engligh (UK)"
 msgstr "Engleza (UK)"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:30
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:30
 msgid "German (DE)"
 msgstr "Germana (DE)"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:31
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:31
 msgid "Romanina (RO)"
 msgstr "Romana (RO)"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:35
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:35
 #: views/admin/main.php:31 views/admin/main.php:54
 msgid "Layout"
 msgstr "Asezare"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:37
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:37
 msgid "Portrait"
 msgstr "Portret"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:38
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:38
 msgid "Landscape"
 msgstr "Pe latime"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:42
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:42
 #: views/admin/main.php:59
 msgid "Theme"
 msgstr "Culori"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:44
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:44
 msgid "Light"
 msgstr "Luminos"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:45
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:45
 msgid "Dark"
 msgstr "Întunecat"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:46
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:46
 msgid "None"
 msgstr "Nimic"
 
-#: Eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:51
+#: eviivo/Plugin/Admin/Pages/Forms/BookingFormConfig.php:51
 msgid "Submit"
 msgstr "Salveaza"
 
-#: Eviivo/Plugin/Admin/Pages/Main.php:45
+#: eviivo/Plugin/Admin/Pages/Main.php:45
 msgid "Information saved."
 msgstr "Informaţiile salvate."
 
-#: Eviivo/Plugin/Elements/Form.php:157
+#: eviivo/Plugin/Elements/Form.php:157
 #, php-format
 msgid "Invalid data. Please correct the fallwoing fields: %s"
 msgstr "Date invalide. Corectează câmpurile următoare: %s"
 
-#: Eviivo/Plugin/Elements/Form/Input.php:127
+#: eviivo/Plugin/Elements/Form/Input.php:127
 #, php-format
 msgid "The %s field is mandatory"
 msgstr "Câmpul %s este obligatoriu"
 
-#: Eviivo/Plugin/Elements/Form/Select.php:77
+#: eviivo/Plugin/Elements/Form/Select.php:77
 msgid "Please select on of the avaible options"
 msgstr "Vă rugăm să selectaţi dintre opţiunile disponibile"
 
-#: Eviivo/Plugin/Model/BookingForm.php:147
+#: eviivo/Plugin/Model/BookingForm.php:147
 #, php-format
 msgid ""
 "Please fill in the Hotel Refrence field in the <a href=\"%s\">Setup</a> tab."
@@ -107,124 +107,124 @@ msgstr ""
 "Vă rugăm să completaţi câmpul ID Hotel din fila <a href=\"%s\">configurare</"
 "a> ."
 
-#: Eviivo/Plugin/Util.php:104
+#: eviivo/Plugin/Util.php:104
 msgid "Previous Month"
 msgstr "Luna precedentă"
 
-#: Eviivo/Plugin/Util.php:105
+#: eviivo/Plugin/Util.php:105
 msgid "Next Month"
 msgstr "Luna următoare"
 
-#: Eviivo/Plugin/Util.php:107
+#: eviivo/Plugin/Util.php:107
 msgid "January"
 msgstr "Ianuarie"
 
-#: Eviivo/Plugin/Util.php:108
+#: eviivo/Plugin/Util.php:108
 msgid "February"
 msgstr "Februarie"
 
-#: Eviivo/Plugin/Util.php:109
+#: eviivo/Plugin/Util.php:109
 msgid "March"
 msgstr "Martie"
 
-#: Eviivo/Plugin/Util.php:110
+#: eviivo/Plugin/Util.php:110
 msgid "April"
 msgstr "Aprilie"
 
-#: Eviivo/Plugin/Util.php:111
+#: eviivo/Plugin/Util.php:111
 msgid "May"
 msgstr "Mai"
 
-#: Eviivo/Plugin/Util.php:112
+#: eviivo/Plugin/Util.php:112
 msgid "June"
 msgstr "Iunie"
 
-#: Eviivo/Plugin/Util.php:113
+#: eviivo/Plugin/Util.php:113
 msgid "July"
 msgstr "Iulie"
 
-#: Eviivo/Plugin/Util.php:114
+#: eviivo/Plugin/Util.php:114
 msgid "August"
 msgstr "August"
 
-#: Eviivo/Plugin/Util.php:115
+#: eviivo/Plugin/Util.php:115
 msgid "September"
 msgstr "Septembrie"
 
-#: Eviivo/Plugin/Util.php:116
+#: eviivo/Plugin/Util.php:116
 msgid "October"
 msgstr "Octombrie"
 
-#: Eviivo/Plugin/Util.php:117
+#: eviivo/Plugin/Util.php:117
 msgid "November"
 msgstr "Noiembrie"
 
-#: Eviivo/Plugin/Util.php:118
+#: eviivo/Plugin/Util.php:118
 msgid "December"
 msgstr "Decembrie"
 
-#: Eviivo/Plugin/Util.php:121
+#: eviivo/Plugin/Util.php:121
 msgid "Sunday"
 msgstr "Duminică"
 
-#: Eviivo/Plugin/Util.php:122
+#: eviivo/Plugin/Util.php:122
 msgid "Monday"
 msgstr "Luni"
 
-#: Eviivo/Plugin/Util.php:123
+#: eviivo/Plugin/Util.php:123
 msgid "Tuesday"
 msgstr "Marți"
 
-#: Eviivo/Plugin/Util.php:124
+#: eviivo/Plugin/Util.php:124
 msgid "Wednesday"
 msgstr "Miercuri"
 
-#: Eviivo/Plugin/Util.php:125
+#: eviivo/Plugin/Util.php:125
 msgid "Thursday"
 msgstr "Joi"
 
-#: Eviivo/Plugin/Util.php:126
+#: eviivo/Plugin/Util.php:126
 msgid "Friday"
 msgstr "Vineri"
 
-#: Eviivo/Plugin/Util.php:127
+#: eviivo/Plugin/Util.php:127
 msgid "Saturday"
 msgstr "Sâmbătă"
 
-#: Eviivo/Plugin/Util.php:130
+#: eviivo/Plugin/Util.php:130
 msgid "Sun"
 msgstr "Dum"
 
-#: Eviivo/Plugin/Util.php:131
+#: eviivo/Plugin/Util.php:131
 msgid "Mon"
 msgstr "Lu"
 
-#: Eviivo/Plugin/Util.php:132
+#: eviivo/Plugin/Util.php:132
 msgid "Tue"
 msgstr "Mar"
 
-#: Eviivo/Plugin/Util.php:133
+#: eviivo/Plugin/Util.php:133
 msgid "Wed"
 msgstr "Mie"
 
-#: Eviivo/Plugin/Util.php:134
+#: eviivo/Plugin/Util.php:134
 msgid "Thu"
 msgstr "Joi"
 
-#: Eviivo/Plugin/Util.php:135
+#: eviivo/Plugin/Util.php:135
 msgid "Fri"
 msgstr "Vi"
 
-#: Eviivo/Plugin/Util.php:136
+#: eviivo/Plugin/Util.php:136
 msgid "Sat"
 msgstr "Sâm"
 
-#: Eviivo/Plugin/Widgets/BookingForm.php:10
+#: eviivo/Plugin/Widgets/BookingForm.php:10
 msgid "Booking Form"
 msgstr "Formular de rezervare"
 
-#: Eviivo/Plugin/Widgets/BookingForm.php:11
-msgid "Auto generated booking form from Eviivo"
+#: eviivo/Plugin/Widgets/BookingForm.php:11
+msgid "Auto generated booking form from eviivo"
 msgstr "Formular de rezervare eviivo"
 
 #: views/admin/main.php:10
@@ -294,7 +294,7 @@ msgid "Show Prices"
 msgstr "Arată preţuri"
 
 #. Plugin Name of the plugin/theme
-msgid "Eviivo Booking Form"
+msgid "eviivo Booking Form"
 msgstr "Formularul de rezervare eviivo"
 
 #. Plugin URI of the plugin/theme
@@ -313,5 +313,5 @@ msgstr "eviivo"
 msgid "https://eviivo.com"
 msgstr "https://eviivo.com"
 
-#~ msgid "Eviivo Booking Form Configurator"
-#~ msgstr "Configurator Formular Rezervare Eviivo "
+#~ msgid "eviivo Booking Form Configurator"
+#~ msgstr "Configurator Formular Rezervare eviivo "

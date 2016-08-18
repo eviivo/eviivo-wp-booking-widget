@@ -1,11 +1,11 @@
 <?php
 
-	use Eviivo\Plugin\Model\BookingForm;
-	use Eviivo\Plugin\Helpers\Php\View;
-	use Eviivo\Plugin\Util;
+	use eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Helpers\Php\View;
+	use eviivo\Plugin\Util;
 
-/* @var $bookingForm Eviivo\Plugin\Model\BookingForm */
-	/* @var $form Eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig */
+/* @var $bookingForm eviivo\Plugin\Model\BookingForm */
+	/* @var $form eviivo\Plugin\Admin\Pages\Forms\BookingFormConfig */
 
 	$uniqueId = $bookingForm->getId();
 ?>
@@ -314,4 +314,3 @@
 </div>
 <?php
 	echo $bookingForm->getIncludeFormTag() ? $form->endTag() : '';
-	

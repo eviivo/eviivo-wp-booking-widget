@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements\Form;
+	namespace eviivo\Plugin\Elements\Form;
 
 	/**
 	 *  
@@ -60,7 +60,7 @@
 		/**
 		 * 
 		 * @param string $type
-		 * @return \Eviivo\Plugin\Elements\Form\Button 
+		 * @return \eviivo\Plugin\Elements\Form\Button 
 		 */
 		public function setType($type) {
 
@@ -73,7 +73,7 @@
 		/**
 		 * 
 		 * @param string $label
-		 * @return \Eviivo\Plugin\Elements\Form\Button 
+		 * @return \eviivo\Plugin\Elements\Form\Button 
 		 */
 		public function setLabel($label) {
 			$this->label = $label;
@@ -81,4 +81,3 @@
 		}
 
 	}
-	

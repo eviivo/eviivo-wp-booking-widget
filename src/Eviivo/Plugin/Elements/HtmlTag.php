@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements;
+	namespace eviivo\Plugin\Elements;
 
 	class HtmlTag {
 
@@ -95,7 +95,7 @@
 		 * 
 		 * @param string $name
 		 * @param string $value
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function setAttribute($name, $value) {
 
@@ -107,7 +107,7 @@
 		/**
 		 * 
 		 * @param string $name
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function removeAttribute($name) {
 
@@ -172,7 +172,7 @@
 		/**
 		 * 
 		 * @param string $tagName
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function setTagName($tagName) {
 			$this->tagName = $tagName;
@@ -182,7 +182,7 @@
 		/**
 		 * 
 		 * @param array $attributes
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function setAttributes($attributes) {
 			$this->attributes = $attributes;
@@ -192,7 +192,7 @@
 		/**
 		 * 
 		 * @param string $innerHtml
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function setInnerHtml($innerHtml) {
 			$this->innerHtml = $innerHtml;
@@ -201,8 +201,8 @@
 
 		/**
 		 * 
-		 * @param \Eviivo\Plugin\Elements\HtmlTag $node
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @param \eviivo\Plugin\Elements\HtmlTag $node
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function addChild(HtmlTag $node) {
 
@@ -221,8 +221,8 @@
 
 		/**
 		 * 
-		 * @param \Eviivo\Plugin\Elements\HtmlTag $node
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @param \eviivo\Plugin\Elements\HtmlTag $node
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function removeChild(HtmlTag $node) {
 
@@ -247,7 +247,7 @@
 		/**
 		 * 
 		 * @param boolean $shortTag
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function setShortTag($shortTag) {
 			$this->shortTag = $shortTag;
@@ -257,7 +257,7 @@
 		/**
 		 * 
 		 * @param string $className
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function addClass($className) {
 
@@ -278,7 +278,7 @@
 		/**
 		 * 
 		 * @param string $className
-		 * @return \Eviivo\Plugin\Elements\HtmlTag 
+		 * @return \eviivo\Plugin\Elements\HtmlTag 
 		 */
 		public function removeClass($className) {
 
@@ -290,4 +290,3 @@
 		}
 
 	}
-	

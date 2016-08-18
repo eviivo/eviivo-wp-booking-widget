@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	 * Plugin Name: Eviivo Booking Widget
+	 * Plugin Name: eviivo Booking Widget
 	 * Plugin URI:  https://eviivo.com
 	 * Description: eviivo booking form generator
 	 * Version:     1.0

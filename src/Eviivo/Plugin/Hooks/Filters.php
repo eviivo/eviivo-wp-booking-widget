@@ -1,8 +1,8 @@
 <?php
 
-	namespace Eviivo\Plugin\Hooks;
+	namespace eviivo\Plugin\Hooks;
 
-	use Eviivo\Plugin\Model\BookingForm;
+	use eviivo\Plugin\Model\BookingForm;
 
 	/**
 	 *  
@@ -21,4 +21,3 @@
 		}
 
 	}
-	

@@ -1,8 +1,8 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements\Form;
+	namespace eviivo\Plugin\Elements\Form;
 
-	use Eviivo\Plugin\Elements\HtmlTag;
+	use eviivo\Plugin\Elements\HtmlTag;
 
 	/**
 	 *  
@@ -74,7 +74,7 @@
 		/**
 		 * 
 		 * @param string $name
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setName($name) {
 
@@ -95,7 +95,7 @@
 		/**
 		 * 
 		 * @param string $value
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setValue($value) {
 			$this->value = $value;
@@ -113,7 +113,7 @@
 		/**
 		 * 
 		 * @param boolean $required
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setRequired($required) {
 			$this->required = $required;
@@ -170,7 +170,7 @@
 		/**
 		 * 
 		 * @param string $label
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setLabel($label) {
 			$this->label = $label;
@@ -197,7 +197,7 @@
 		/**
 		 * 
 		 * @param stirng $message
-		 * @return \Eviivo\Plugin\Admin\Pages\Base 
+		 * @return \eviivo\Plugin\Admin\Pages\Base 
 		 */
 		public function setMessage($message) {
 			$this->message = $message;
@@ -235,7 +235,7 @@
 		/**
 		 * 
 		 * @param boolean $flag
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		protected function setHasError($flag) {
 
@@ -255,7 +255,7 @@
 		/**
 		 * 
 		 * @param boolean $includeLabel
-		 * @return \Eviivo\Plugin\Elements\Form\Input 
+		 * @return \eviivo\Plugin\Elements\Form\Input 
 		 */
 		public function setIncludeLabel($includeLabel) {
 			$this->includeLabel = $includeLabel;
@@ -263,4 +263,3 @@
 		}
 
 	}
-	

@@ -1,9 +1,9 @@
 <?php
 
-	namespace Eviivo\Plugin;
+	namespace eviivo\Plugin;
 
-	use Eviivo\Plugin\Ajax\Request;
-	use Eviivo\Plugin\Widgets\Base;
+	use eviivo\Plugin\Ajax\Request;
+	use eviivo\Plugin\Widgets\Base;
 
 	/**
 	 *  
@@ -70,7 +70,7 @@
 					$filenameSegments = explode('.', $page);
 					array_pop($filenameSegments);
 					$className = implode('.', $filenameSegments);
-					$fullClassName = '\\Eviivo\\Plugin\\Admin\\Pages\\' . $className;
+					$fullClassName = '\\eviivo\\Plugin\\Admin\\Pages\\' . $className;
 					$this->adminPages[$className] = new $fullClassName();
 					$this->adminPages[$className]->register();
 				}
@@ -84,7 +84,7 @@
 		 */
 		private function registerHook($className, $hookRegisterFunction) {
 
-			$baseMethods = get_class_methods('\\Eviivo\\Plugin\\Hooks\\Base');
+			$baseMethods = get_class_methods('\\eviivo\\Plugin\\Hooks\\Base');
 
 			foreach (get_class_methods($className) as $filter) {
 				if (!in_array($filter, $baseMethods)) {
@@ -98,12 +98,12 @@
 		 *  
 		 */
 		private function registerHooks() {
-			$this->registerHook('\\Eviivo\\Plugin\\Hooks\\Filters', 'add_filter');
-			$this->registerHook('\\Eviivo\\Plugin\\Hooks\\Actions', 'add_action');
+			$this->registerHook('\\eviivo\\Plugin\\Hooks\\Filters', 'add_filter');
+			$this->registerHook('\\eviivo\\Plugin\\Hooks\\Actions', 'add_action');
 
 			if (is_admin()) {
-				$this->registerHook('\\Eviivo\\Plugin\\Admin\\Hooks\\Filters', 'add_filter');
-				$this->registerHook('\\Eviivo\\Plugin\\Admin\\Hooks\\Actions', 'add_action');
+				$this->registerHook('\\eviivo\\Plugin\\Admin\\Hooks\\Filters', 'add_filter');
+				$this->registerHook('\\eviivo\\Plugin\\Admin\\Hooks\\Actions', 'add_action');
 			}
 		}
 
@@ -120,7 +120,7 @@
 					foreach (scandir($dir) as $file) {
 						$path = $dir . '/' . $file;
 						if ($file != '.' && $file != '..' && is_file($path)) {
-							$className = '\\Eviivo\\Plugin\\Ajax\\Calls\\' . substr($file, 0, -4);
+							$className = '\\eviivo\\Plugin\\Ajax\\Calls\\' . substr($file, 0, -4);
 							new $className();
 						}
 					}
@@ -165,7 +165,7 @@
 					foreach ($widgets as $widgetFileName) {
 						if ($widgetFileName != '.' && $widgetFileName != '..') {
 							if ($widgetFileName != 'Base.php' && is_file($widgetsBasePath . '/' . $widgetFileName)) {
-								$widgetName = substr('\\Eviivo\\Plugin\\Widgets\\Base', 0, strrpos('\\Eviivo\\Plugin\\Widgets\\Base', '\\')) . '\\' . substr($widgetFileName, 0, strrpos($widgetFileName, '.'));
+								$widgetName = substr('\\eviivo\\Plugin\\Widgets\\Base', 0, strrpos('\\eviivo\\Plugin\\Widgets\\Base', '\\')) . '\\' . substr($widgetFileName, 0, strrpos($widgetFileName, '.'));
 								register_widget($widgetName);
 							}
 						}
@@ -175,4 +175,3 @@
 		}
 
 	}
-	

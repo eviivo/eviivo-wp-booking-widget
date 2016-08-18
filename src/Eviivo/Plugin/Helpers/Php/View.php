@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Helpers\Php;
+	namespace eviivo\Plugin\Helpers\Php;
 
 	/**
 	 *  
@@ -33,7 +33,7 @@
 		/**
 		 * 
 		 * @param string $parameters
-		 * @return \Eviivo\Plugin\Helpers\Php\View 
+		 * @return \eviivo\Plugin\Helpers\Php\View 
 		 */
 		public function setParameters($parameters) {
 			$this->parameters = $parameters;
@@ -55,7 +55,7 @@
 		 * 
 		 * @param string $parameter
 		 * @param mixed $value
-		 * @return \Eviivo\Plugin\Helpers\Php\View 
+		 * @return \eviivo\Plugin\Helpers\Php\View 
 		 */
 		public function setParameter($parameter, $value) {
 
@@ -80,4 +80,3 @@
 		}
 
 	}
-	

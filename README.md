@@ -18,7 +18,7 @@ grunt watch
 ```
 
 ## Structure
-The plugin tries to implement the PSR-0 standard. All the classed are loaded automatically from the `src` folder, using the `Eviivo\Plugin` namespace.
+The plugin tries to implement the PSR-0 standard. All the classed are loaded automatically from the `src` folder, using the `eviivo\Plugin` namespace.
 
 ### File structure
 - assets - frontend resources.
@@ -33,12 +33,12 @@ The plugin tries to implement the PSR-0 standard. All the classed are loaded aut
 	- all the files in this folder are registered automatically as short codes.
 	- the files name will the shortcode tag name
 	- the attributes will be extracted as variables in the current scope. To get to the all the attributes use the `$attributes` variable.
-- src/Eviivo/Plugin - PHP sources
+- src/eviivo/Plugin - PHP sources
 	- Admin/Hooks/Filters and Admin/Hooks/Filters
 		- create static methods in these classes and they will be registered as filters/actions
 		- to register a filter/action that has illegal characters in the name for a method (like `acf/ini`), use the $mapping static array property to defined (method_name => hook_name)
 	- Pages
-		- All files (except Base.php) are registered as admin pages wp-admin. Each file should contain a class with the name of the file in the `Eviivo\Plugin\Admin\Pages` namespace, extending viivo\Plugin\Admin\Pages\Base
+		- All files (except Base.php) are registered as admin pages wp-admin. Each file should contain a class with the name of the file in the `eviivo\Plugin\Admin\Pages` namespace, extending viivo\Plugin\Admin\Pages\Base
 	- Pages/Form
 		- Forms used in wp-admin
 	- Ajax

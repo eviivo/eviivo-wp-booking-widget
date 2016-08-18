@@ -1,11 +1,11 @@
 <?php
 
-	namespace Eviivo\Plugin\Widgets;
+	namespace eviivo\Plugin\Widgets;
 
-	use Eviivo\Plugin\Model\BookingForm as BookingFormModel;
-	use Eviivo\Plugin\Elements\Form\Text;
-	use Eviivo\Plugin\Elements\Form\Textarea;
-	use Eviivo\Plugin\Elements\HtmlTag;
+	use eviivo\Plugin\Model\BookingForm as BookingFormModel;
+	use eviivo\Plugin\Elements\Form\Text;
+	use eviivo\Plugin\Elements\Form\Textarea;
+	use eviivo\Plugin\Elements\HtmlTag;
 
 	/**
 	 *  
@@ -17,7 +17,7 @@
 		 */
 		public function __construct() {
 			$this->setTitle(__('Booking Form', 'eviivo-booking-widget'));
-			$this->setDesciption(__('Auto generated booking form from Eviivo', 'eviivo-booking-widget'));
+			$this->setDesciption(__('Auto generated booking form from eviivo', 'eviivo-booking-widget'));
 
 			parent::__construct();
 		}
@@ -133,4 +133,3 @@
 		}
 
 	}
-	

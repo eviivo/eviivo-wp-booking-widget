@@ -1,6 +1,6 @@
 <?php
 
-	namespace Eviivo\Plugin\Elements\Form;
+	namespace eviivo\Plugin\Elements\Form;
 
 	/**
 	 *  
@@ -59,7 +59,7 @@
 		/**
 		 * 
 		 * @param array $options
-		 * @return \Eviivo\Plugin\Elements\Form\Select 
+		 * @return \eviivo\Plugin\Elements\Form\Select 
 		 */
 		public function setOptions($options) {
 			$this->options = $options;
@@ -83,4 +83,3 @@
 		}
 
 	}
-	
