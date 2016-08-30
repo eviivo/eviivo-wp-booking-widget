@@ -30,4 +30,14 @@
 		}
 	}
 
+	add_action( 'init', 'eviivoBookingWidget_au' );
+	function eviivoBookingWidget_au()
+	{
+		require_once ( 'wp_autoupdate.php' );
+		$plugin_current_version = '1.0';
+		$plugin_remote_path = 'https://eviivo.com/plugins/eviivo-wp-booking-widget/update.php';
+		$plugin_slug = plugin_basename( __FILE__ );
+		new WP_AutoUpdate ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
+	}
+
 	eviivoBookingWidgetPluginBootstrap();
