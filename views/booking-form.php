@@ -60,7 +60,7 @@
 	style="<?php echo $textColorStyle, $backgroundColorStyle, $fontSizeStyle; ?>"
 	>
 	<form 
-		action="http://via.eviivo.com/<?php echo str_replace('_', '-', $bookingForm->getLanguageCode()); ?>/<?php echo $bookingForm->getHotelReference() ?>#mod-results" 
+		action="https://via.eviivo.com/<?php echo str_replace('_', '-', $bookingForm->getLanguageCode()); ?>/<?php echo $bookingForm->getHotelReference() ?>#mod-results" 
 		method="get"
 		target="_blank"
 		>
